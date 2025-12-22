@@ -12,12 +12,13 @@ The fuel sender is connected via a ADC pin on the ESP32
 |:----  |
 | ESP32-Wroom-32 | 
 | 2.2" TFT SPI (240*320) | 
+| 270 Ω resistor |
 
 ## ESP32 pinout
 
 | PIN | Screen |
 |:----  |:-------|
-| 5V | 5V |  
+| 3V3 | VCC |  
 | GND | GND | 
 | D2 | DC (Screen)  |
 | D4 | RESET (Screen) |
