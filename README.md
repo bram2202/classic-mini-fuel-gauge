@@ -16,17 +16,18 @@ The fuel sender is connected via a ADC pin on the ESP32
 
 ## ESP32 pinout
 
-| PIN | Screen |
+| PIN | Connected to  |
 |:----  |:-------|
-| 3V3 | VCC |  
-| GND | GND | 
+| 3V3 | VCC (Screen & voltage divider)  |  
+| GND | GND (Screen & voltage div
+ider) | 
 | D2 | DC (Screen)  |
 | D4 | RESET (Screen) |
 | D5 | CS (Screen) |
 | D18 | SCK (Screen)  |
 | D19 | MISO (Screen)  |
 | D23 | MOSI (Screen)  |
-| D34 | (ADC) Fuel tank sender input | 
+| D34 | Fuel tank sender input (ADC)  | 
 
 ## Sender voltage divider
 
