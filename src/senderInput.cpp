@@ -23,7 +23,7 @@ float SenderInput::readPercent(int samples)
     // Known hardware
     const float VREF = 3.3f;       // ESP32 ADC reference (approx.)
     const float ADC_MAX = 4095.0f; // 12-bit ADC
-    const float R_FIXED = 220.0f;  // Fixed resistor in ohms
+    const float R_FIXED = 270.0f;  // Fixed resistor in ohms
 
     // Convert ADC reading to voltage
     float vOut = (raw / ADC_MAX) * VREF;

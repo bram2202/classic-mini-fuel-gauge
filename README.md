@@ -35,9 +35,9 @@ Then use a voltage divider and connect it to a ADC (Analog-to-digital converter)
 With some math we can calculate the percentage to the sender
 
 ```text
-3.3 V ── 220 Ω ──┬── ADC (ESP)
+3.3 V ── 270 Ω ──┬── ADC (ESP)
                  |
-               Rsender
+              Rsender
                  |
                 GND
 ```
