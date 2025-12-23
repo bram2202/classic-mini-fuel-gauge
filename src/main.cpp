@@ -12,6 +12,7 @@ void setup()
 
   // Initialize screen and joystick
   screen.init();
+
   senderInput.init(34, 15.0f, 270.0f); // GPIO34, Rs empty ~15Ω, Rs full ~270Ω
 }
 
@@ -22,6 +23,7 @@ void loop()
 
   // Update screen
   screen.updateFuelLevel(percent);
+  screen.addDataPoint(percent);
 
   delay(100);
 }

@@ -8,6 +8,7 @@ class Screen
 public:
     void init();
     void updateFuelLevel(float percent);
+    void addDataPoint(float value);
 
 private:
     void drawGaugeFace();
@@ -30,4 +31,8 @@ private:
 
     /* Needle state */
     float lastAngle = NAN;
+
+    float dataPoints[100];
+    int dataPointCount;
+    void drawGraph();
 };
