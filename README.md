@@ -19,8 +19,7 @@ The fuel sender is connected via a ADC pin on the ESP32
 | PIN | Connected to  |
 |:----  |:-------|
 | 3V3 | VCC (Screen & voltage divider)  |  
-| GND | GND (Screen & voltage div
-ider) | 
+| GND | GND (Screen & voltage divider) | 
 | D2 | DC (Screen)  |
 | D4 | RESET (Screen) |
 | D5 | CS (Screen) |
