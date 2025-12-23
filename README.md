@@ -5,7 +5,7 @@ Using an ESP32 and a TFT screen to show some data.
 
 The fuel sender is connected via a ADC pin on the ESP32
 
-![screen](/docs/screen1.jpg "screen example")
+![screen](/docs/screen2.jpg "screen example")
 
 ## Components
 | Name |
